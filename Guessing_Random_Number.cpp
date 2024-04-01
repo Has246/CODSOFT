@@ -9,7 +9,7 @@ int main()
     srand(time(0));
 
     int Random_Number;
-    int Guess = 0; // Initialize Guess
+    int Guess = 0;
     int Attempts = 0;
 
     Random_Number = rand() % 100 + 1;
